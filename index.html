@@ -9,5 +9,16 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+    <form id="userForm">
+      <input type="text" name="username" placeholder="Username" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <select name="role">
+        <option value="user">User</option>
+        <option value="admin">Admin</option>
+        <option value="guest">Guest</option>
+      </select>
+      <button type="submit">Tạo User</button>
+    </form>
   </body>
 </html>
